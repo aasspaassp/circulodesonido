@@ -12,9 +12,9 @@ export default async function Home() {
     
     <div className="max-w-5xl mx-auto">
 
-      <h1 className="text-7xl font-extrabold" >
-        Circulo de estudio del <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">sonido</span>
-      </h1>
+      <p className="text-base font-extrabold" >
+        <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent"></span>
+      </p>
       <p className="mt'3 text-xl text-gray-800">Aquí puedes conocer los medios y mensajes en los que hemos trabajado. Si te interesa compartir algo no dudes en contactarnos.</p>
      <h2 className="mt-24 font-bold text-gray-800 text-3xl">Publicaciones:</h2>
      <div className="mt-5 grid md:grid-cols2 lg:grid-cols-3 gap-8">

@@ -13,7 +13,9 @@ export default async function Project({params} : Props){
     return(
         <div className=' max-w-3xl mx-auto py-20'>
             <header className="flex items-center justify-between">
-                <h1 className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent text-6xl font-extrabold">{project.name}</h1>
+                <h1 className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent text-6xl font-extrabold">
+                    {project.name}
+                </h1>
                 <a
                     href={project.url}
                     title="View project"
