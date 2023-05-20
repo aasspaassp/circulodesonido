@@ -13,9 +13,9 @@ export default async function Home() {
     <div className="max-w-5xl mx-auto">
 
       <p className="text-base font-extrabold" >
-        <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent"></span>
+        <span className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">Círculo de lectura online híbrido para discutir textos y medios relacionados a la música, el sonido su creación.</span>
       </p>
-      <p className="mt'3 text-xl text-gray-800">Aquí puedes conocer los medios y mensajes en los que hemos trabajado. Si te interesa compartir algo no dudes en contactarnos.</p>
+      <p className="mt'3 text-xl text-gray-800">Puedes revisar los textos que buscamos leer y discutir. Si te interesa compartir, participar o saber más no dudes en contactarnos.</p>
      <h2 className="mt-24 font-bold text-gray-800 text-3xl">Publicaciones:</h2>
      <div className="mt-5 grid md:grid-cols2 lg:grid-cols-3 gap-8">
       {projects.map((project) => 
