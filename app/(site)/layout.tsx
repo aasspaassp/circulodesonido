@@ -31,8 +31,7 @@ export default async function RootLayout({
           >
             <div className='flex flex-row content-center'>
               <SignalIcon className="h-8 w-12 text-gray-800" />
-              <span className="text-gray-800 font-bold text-2xl">???</span>
-              <span className="text-gray-800 font-bold text-2xl">Circulo de estudio del sonido</span>
+              <span className="text-gray-800 font-bold text-2xl">SONICOCO</span>
             </div>
           </Link>
           <div className='flex items-center gap-3 mx-4'>
